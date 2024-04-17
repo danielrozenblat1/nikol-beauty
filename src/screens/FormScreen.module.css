@@ -82,6 +82,7 @@
         font-family: "RubikR";
         font-size: 16px;
         border: none;
+        text-decoration: none;
         direction: rtl;
         transition: all ease-out 1s;
     }
