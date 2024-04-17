@@ -171,6 +171,8 @@
                 font-family: "RubikR";
                 font-size: 16px;
                 border: none;
+                color:black;
+                text-decoration: none;
                 direction: rtl;
                 transition: all ease-out 1s;
             }
@@ -251,6 +253,8 @@
                 font-size: 16px;
                 border: none;
                 direction: rtl;
+                color:black;
+                text-decoration: none;
                 transition: all ease-out 1s;
             }
             .button:hover{
@@ -327,6 +331,8 @@
                 border-radius: 10px;
                 margin:2% auto;
                 cursor: pointer;
+                color:black;
+                text-decoration: none;
                 font-family: "RubikR";
                 font-size: 16px;
                 border: none;
@@ -410,6 +416,8 @@
                 font-size: 16px;
                 border: none;
                 direction: rtl;
+                color:black;
+                text-decoration: none;
                 transition: all ease-out 1s;
             }
             .button:hover{
@@ -488,6 +496,8 @@
                 font-family: "RubikR";
                 font-size: 16px;
                 border: none;
+                color:black;
+                text-decoration: none;
                 direction: rtl;
                 transition: all ease-out 1s;
             }
@@ -567,6 +577,8 @@
                 font-family: "RubikR";
                 font-size: 16px;
                 border: none;
+                color:black;
+                text-decoration: none;
                 direction: rtl;
                 transition: all ease-out 1s;
             }

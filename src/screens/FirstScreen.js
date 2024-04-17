@@ -1,7 +1,13 @@
 import styles from "./FirstScreen.module.css";
 import nikol from "../images/ניקול ביוטי קורס.png";
+import { useState } from "react";
+import Loader from "../components/loader/Loader";
 
 const FirstScreen = () => {
+
+
+
+
   return (
     <>
       <div className={styles.background}>
@@ -23,7 +29,9 @@ const FirstScreen = () => {
             itemscope
             itemtype="https://schema.org/ImageObject"
             itemprop="image"
+          
           />
+        
         </div>
       </div>
     </>
