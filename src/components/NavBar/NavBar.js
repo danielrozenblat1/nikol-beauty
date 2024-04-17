@@ -12,9 +12,13 @@ const NavBar = () => {
         document.body.style.overflow = 'hidden';
     } 
 };
-  const handleScroll = () => {
-    setScrolled(prevScrolled => window.scrollY >= 50);
-};
+    const handleScroll = () => {
+    if (window.pageYOffset > 0) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
 
 
   const closeMenu = () => {
@@ -26,9 +30,7 @@ const NavBar = () => {
 
   useEffect(() => {
    
-    const handleScroll = () => {
-        setScrolled(prevScrolled => window.scrollY >= 50);
-    };
+
 
     window.addEventListener("scroll", handleScroll);
 
@@ -39,7 +41,7 @@ const NavBar = () => {
 
   return (
     <>
-      <nav className={styles.navbar}>
+      <nav className={scrolled ? styles.floatingNav :styles.navbar}>
         <div className={styles.logoContainer}>
           <div className={styles.logo}>
             <img className={styles.image} src={logo} alt="ניקול ביוטי לוגו"/>

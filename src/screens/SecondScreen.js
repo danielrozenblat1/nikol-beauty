@@ -17,11 +17,11 @@ const SecondScreen = () => {
             הייתי מגיעה לאן שהגעתי היום "
           </span>
           <span itemprop="author" itemscope itemtype="https://schema.org/Person">
-            <meta itemprop="name" content="ניקול ולרי ביוטי" />
+            <meta itemprop="name" content="ניקול ולארי ביוטי" />
           </span>
         </div>
         <div className={styles.name} itemprop="author" id="קצת עלי">
-          ניקול ולרי ביוטי
+          ניקול ולארי ביוטי
         </div>
         <div className={styles.center}>
           <img

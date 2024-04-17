@@ -7,10 +7,7 @@ const FirstScreen = () => {
       <div className={styles.background}>
         <div className={styles.question} itemscope itemtype="https://schema.org/Question">
           <span itemprop="name">
-            בטוחה שתחום הביוטי
-            <div className={styles.bold} itemprop="acceptedAnswer">
-              הוא בול בשבילך
-            </div>
+            בטוחה שתחום הביוטי <div className={styles.bold} itemprop="acceptedAnswer"> הוא בול בשבילך </div>
             <br />
             ועדיין מסתכלת מהצד ?
           </span>

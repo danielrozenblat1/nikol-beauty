@@ -5,7 +5,7 @@ import styles from './Button.module.css';
 const Button = ({ buttonText, to }) => {
   return (
     <div className={styles.center}><ScrollLink to={to} smooth={true} duration={1000} offset={-100}>
-    <button className={styles.button}> {buttonText}</button>
+    <button className={styles.button}>{buttonText}</button>
     </ScrollLink></div>
   );
 };
