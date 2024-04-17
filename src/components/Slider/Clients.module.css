@@ -33,7 +33,7 @@
     object-fit: cover;
   }
   .title{
-    font-size:4rem;
+    font-size:5rem;
     direction: rtl;
     width:90%;
   
@@ -43,7 +43,7 @@
     font-family: "Horev";
 }
 .explain{
-    font-size: 1rem;
+    font-size: 1.2rem;
     direction: rtl;
     width:90%;
 

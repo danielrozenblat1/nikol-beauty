@@ -113,7 +113,7 @@ const sliderSettings = {
   ];
 return <>
 
-<div className={styles.container} id="לקוחות ממליצים">
+<div className={styles.container} id="לקוחות ממליצות">
 
  <div className={styles.title}>קצת מהלקוחות שלי..</div>
  <div className={styles.explain}>כשלקוחה נכנסת אלי אני דואגת להוציא אותה הכי מרוצה שיש , דפדפי בין התמונות ותשמעי את זה מהן..</div>

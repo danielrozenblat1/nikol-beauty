@@ -76,10 +76,8 @@ icon={pudra}/>
 </div>
 <div className={styles.text}>
 
-    <div className={styles.stepHeader}>ידע וניסיון </div>
-    <div className={styles.section}>תחסכו מכם טעויות קריטיות והמון כסף.<br/>
-יועץ משכנתאות מנוסה מביא עימו ידע רחב ועשיר בתחום המשכנתאות, הוא מכיר היטב את כל החוקים, התנאים והמגמות בשוק המשכנתאות 
-המשתנה תדיר. היועץ יתכנן עבורך ויעזור לך לקבל את המשכנתא המתאימה בדיוק לצרכיך וליכולותיך הכלכליות</div>
+    <div className={styles.stepHeader}>הצללת פודרה</div>
+    <div className={styles.section}>בעזרת התאמה מיוחדת לעור שלך ולסגנון האיפור שלך אני הולכת להפוך את העור שלך לטבעי ומואר</div>
 </div>
 </div>
 {/* חץ לשלב הבא */}
@@ -89,9 +87,8 @@ icon={pudra}/>
 <div className={styles.text}>
 
  
-<div className={styles.stepHeader}>חיסכון בזמן </div>
-    <div className={styles.section}>הליך לקיחת משכנתא הינו מורכב עבור מי שאינו חי את התחום וכרוך בהרבה בירוקרטיה וניירת. יועץ המשכנתאות יבצע זאת עבורכם, יקצר את 
-זמני התהליך וימנע מכם כאב ראש</div>
+<div className={styles.stepHeader}>העברת קורסים</div>
+    <div className={styles.section}> כל הידע שצברתי מהמאסטריות הטובות בעולם מחכה לך בדרך להפוך למומחית ביוטי בעצמך</div>
 </div>
 <div className={styles.icons}>
 <Player ref={playerRef2} delay={500} size="100%" onComplete={() => playerRef2.current?.playFromBeginning()}
@@ -108,9 +105,8 @@ icon={lips}/>
 </div>
 <div className={styles.text}>
 
-    <div className={styles.stepHeader}>מו"מ טוב יותר</div>
-    <div className={styles.section}>כלקוח בודד מול המערכת הבנקאית הסיכויים שלנו להוזלה משמעותית של המשכנתא נמוכים. 
-ליועץ משכנתאות מקצועי ומנוסה יש את הידע והקשרים הנדרשים כדי לנהל עבורך משא ומתן תקיף ולהשיג את התנאים הטובים ביותר</div>
+    <div className={styles.stepHeader}>פיגמנט שפתיים</div>
+    <div className={styles.section}>כל קילוף,פיגמנט וקו שפתיים שלא נראה מושלם יהפוך למושלם בעזרת הכלים המיוחדים שיש לי</div>
 </div>
 </div>
 <div className={styles.step}>
@@ -118,8 +114,8 @@ icon={lips}/>
 <div className={styles.text}>
 
  
-<div className={styles.stepHeader}>התאמה אישית </div>
-    <div className={styles.section}>יועץ המשכנתאות יאפיין במקצועיות את מצבך הפיננסי ויבנה עבורך משכנתא ייחודית המתאימה לצרכים וליכולות שלך</div>
+<div className={styles.stepHeader}>מיקרובילדינג</div>
+    <div className={styles.section}>בעזרת טכניקות מיוחדות ומגוונות נוכל לייצר חצאי שיער , מילוי או שדרוג הקו הטבעי של השיער שלך</div>
 </div>
 <div className={styles.icons}>
 <Player ref={playerRef4} delay={500} size="100%" onComplete={() => playerRef4.current?.playFromBeginning()}
@@ -133,8 +129,8 @@ icon={eyeleash}/>
 </div>
 <div className={styles.text}>
 
-    <div className={styles.stepHeader}>ליווי מקצועי </div>
-    <div className={styles.section}>היועץ ילווה אותך בכל התהליך עד לקבלת המשכנתא, יענה על שאלות ויפתור בעיות שמתעוררות</div>
+    <div className={styles.stepHeader}>הלחמת ריסים </div>
+    <div className={styles.section}>נוכל לשפר את עובי הריס, נוכל להדביק ריסים מלאכותיים ולעבות את הריסים שלך וליצור מראה טבעי ומואר של הריסים שלך</div>
 </div>
 </div>
 
