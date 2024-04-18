@@ -21,7 +21,7 @@ const SecondScreen = () => {
           </span>
         </div>
         <div className={styles.name} itemprop="author" id="קצת עלי">
-          ניקול ולארי ביוטי
+   ניקול ולארי
         </div>
         <div className={styles.center}>
           <img
@@ -35,7 +35,7 @@ const SecondScreen = () => {
         </div>
         <div className={styles.quate} itemscope itemtype="https://schema.org/Quotation">
           <span itemprop="text">
-            טסתי למקומות השווים בעולם ללמוד מכל המאסטריות הגדולות בעולם והגיע
+            טסתי למקומות השווים ביותר כדי ללמוד מכל המאסטריות הגדולות בעולם והגיע
             הזמן לחלוק וללמד אתכן את כל הידע שצברתי
           </span>
         </div>
@@ -44,7 +44,7 @@ const SecondScreen = () => {
             left={true}
             icon={eyebrows}
             subject="קורס עיצוב גבות"
-            description="בתוך שלושה מפגשים פרונטלים עם ליווי אישי שלי, את תהפכי למעצבת גבות עם נסיון מעשי ותעודת הסמכה"
+            description="בתוך שני מפגשים פרונטלים עם ליווי אישי שלי, את תהפכי למעצבת גבות עם נסיון מעשי ותעודת הסמכה"
             itemscope
             itemtype="https://schema.org/Course"
             itemprop="courseOffering"
@@ -62,8 +62,8 @@ const SecondScreen = () => {
           <Box
             none={true}
             icon={eye}
-            subject="קורס עיצוב גבות + הלחמת ריסים"
-            description="שני הקורסים שיוציאו אותך מומחית בתחום הביוטי עם ידע של90% מהמתחרות שלך אין ! , יש הנחה מיוחדת על המסלול הזה "
+            subject="סילבוס עיצוב גבות + הלחמת ריסים"
+            description="חבילה של שני הקורסים שיוציאו אותך מומחית בתחום הביוטי עם ידע רחב ומתקדם בשני התחומים "
             itemscope
             itemtype="https://schema.org/Course"
             itemprop="courseOffering"
