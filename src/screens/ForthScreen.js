@@ -1,5 +1,6 @@
 import Silabus1 from "../components/silabus/Silabus1"
 import Silabus2 from "../components/silabus/Silabus2"
+import Silabus3 from "../components/silabus/Silabus3"
 import styles from "./ForthScreen.module.css"
 
 const ForthScreen = () => {
@@ -24,6 +25,13 @@ const ForthScreen = () => {
           itemScope
           itemType="https://schema.org/Product"
           itemProp="itemListElement"
+        />
+
+        <Silabus3
+              title="קורס עיצוב גבות + הלחמת ריסים"
+              itemScope
+              itemType="https://schema.org/Product"
+              itemProp="itemListElement"
         />
       </div>
     </>

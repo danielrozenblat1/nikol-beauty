@@ -10,12 +10,9 @@ import ScrollReveal from 'scrollreveal';
 import nikolFirstDay2 from "../../images/ניקול ביוטי לימוד 2.png"
 import nikolFirstDay1 from "../../images/ניקול ביוטי אווירה 3.png"
 import nikolFirstDay3 from "../../images/ניקול ביוטי כלים 2.png"
-import nikolFirstDay4 from "../../images/ניקול ביוטי קליניקה.png"
-import nikolFirstDay5 from "../../images/ניקול ביוטי קליניקה.png"
-import nikolFirstDay6 from "../../images/ניקול ביוטי קליניקה.png"
-import nikolFirstDay7 from "../../images/ניקול ביוטי קליניקה.png"
-import nikolFirstDay8 from "../../images/ניקול ביוטי קליניקה.png"
-import nikolFirstDay9 from "../../images/ניקול ביוטי קליניקה.png"
+import nikolFirstDay4 from "../../images/ניקול ולארי קורס עיצוב גבות 4.png"
+import nikolFirstDay5 from "../../images/ניקול ולארי קורס עיצוב גבות 5.png"
+import nikolFirstDay6 from "../../images/ניקול ולארי קורס עיצוב גבות 6.png"
 import Button from "../Button/Button";
  export function DropdownAccordion({ title, content }) {
   const [expanded, setExpanded] = React.useState(false);
@@ -195,9 +192,9 @@ return <>
 
       
 <div className={styles.row}>
-                    <img className={styles.image} src={nikolFirstDay1} alt="ניקול ולארי קורס עיצוב גבות יום 2 אווירה"/>
-                    <img className={styles.image} src={nikolFirstDay2} alt="ניקול ולארי קורס עיצוב גבות יום 2 חוויה"/>
-                    <img className={styles.image} src={nikolFirstDay2} alt="ניקול ולארי קורס עיצוב גבות יום 2 לקוחה"/>
+                    <img className={styles.image} src={nikolFirstDay4} alt="ניקול ולארי קורס עיצוב גבות יום 2 אווירה"/>
+                    <img className={styles.image} src={nikolFirstDay5} alt="ניקול ולארי קורס עיצוב גבות יום 2 חוויה"/>
+                    <img className={styles.image} src={nikolFirstDay6} alt="ניקול ולארי קורס עיצוב גבות יום 2 לקוחה"/>
 </div>     
 
 </>}/>

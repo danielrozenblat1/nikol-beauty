@@ -9,12 +9,36 @@ import Clients from './components/Slider/Clients';
 import ByMe from './components/ByMe/ByMe';
 import BasicAccordion from './components/questions/Akordion';
 import ForthScreen from './screens/ForthScreen';
+import { useEffect, useState } from 'react';
 
 function App() {
+
+  const [scrolled, setScrolled] = useState(false);
+
+
+  useEffect(() => {
+   
+
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+        window.removeEventListener("scroll", handleScroll);
+    };
+}, []);
+
+  const handleScroll = () => {
+    if (window.pageYOffset > 0) {
+      setScrolled(true);
+    } else {
+      setScrolled(false);
+    }
+  };
+
   return <>
   <div class="wrap" style={{overflowY:"hidden"}}>
   <NavBar/>
-  <FirstScreen/>
+  <FirstScreen scrolled={scrolled}/>
   <SecondScreen/>
   <FormScreen title="הגיע הזמן לעשות את הצעד !"/>
   <ThirdScreen/>

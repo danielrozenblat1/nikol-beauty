@@ -3,7 +3,7 @@ import nikol from "../images/ניקול ביוטי קורס.png";
 import { useState } from "react";
 import Loader from "../components/loader/Loader";
 
-const FirstScreen = () => {
+const FirstScreen = (props) => {
 
 
 
@@ -11,7 +11,7 @@ const FirstScreen = () => {
   return (
     <>
       <div className={styles.background}>
-        <div className={styles.question} itemscope itemtype="https://schema.org/Question">
+        <div className={!props.scrolled ? styles.question :styles.questionFixed } itemscope itemtype="https://schema.org/Question">
           <span itemprop="name">
             בטוחה שתחום הביוטי <div className={styles.bold} itemprop="acceptedAnswer"> הוא בול בשבילך </div>
             <br />
