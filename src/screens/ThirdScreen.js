@@ -96,7 +96,7 @@ const ThirdScreen=()=>{
     
               <div className={styles.step} itemscope itemtype="https://schema.org/Organization">
                 <div className={styles.text}>
-                  <div className={styles.stepHeader} itemprop="name">מיקרובילדינג</div>
+                  <div className={styles.stepHeader} itemprop="name">מיקרובליידינג</div>
                   <div className={styles.section} itemprop="description">הדמיית שערות טבעיות ומילוי של חללים ריקים בגבות טכניקה מושלמת שתגרום לך לא להבדיל בין שערה אמיתית לשערה מצויירת</div>
                 </div>
                 <div className={styles.icons}>
