@@ -5,7 +5,7 @@ import { Player } from "@lordicon/react"
 import ScrollReveal from "scrollreveal"
 
 import Button from "../components/Button/Button"
-import pudra from '../icons/wired-lineal-1554-beauty-face-powder.json'
+import pudra from '../icons/wired-lineal-775-needle (1).json'
 import microbuilding from "../icons/wired-lineal-1563-hair-clip (1).json"
 import lecture from "../icons/wired-lineal-689-speaker-lecturer-female.json"
 import  eyeleash from "../icons/wired-lineal-1575-eyelash.json"
