@@ -146,7 +146,17 @@
         }
         @media only screen and (min-width: 350px) and (max-width: 450px) {
         
-   
+     
+            .title{
+                font-family: "Horev";
+                color: black;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
+                font-size: 3.5rem;
+                text-align: center;
+                direction: rtl;
+              
+                margin:5% auto 3%;
+                } 
             .bigWrapper{
             display: flex;
             flex-direction: column;
@@ -196,7 +206,17 @@
             }
         }
         @media only screen and (min-width: 450px) and (max-width: 550px) {
-        
+          
+            .title{
+                font-family: "Horev";
+                color: black;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
+                font-size: 3.7rem;
+                text-align: center;
+                direction: rtl;
+              
+                margin:4% auto 3%;
+                }
  
             .bigWrapper{
             display: flex;
@@ -247,7 +267,17 @@
             }
         }
         @media only screen and (min-width: 550px) and (max-width: 650px) {
-        
+          
+            .title{
+                font-family: "Horev";
+                color: black;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
+                font-size: 4rem;
+                text-align: center;
+                direction: rtl;
+              
+                margin:4% auto 3%;
+                }
         
 
             .bigWrapper{
@@ -300,7 +330,16 @@
         }
         @media only screen and (min-width: 650px) and (max-width: 850px) {
         
-
+            .title{
+                font-family: "Horev";
+                color: black;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
+                font-size: 4.2rem;
+                text-align: center;
+                direction: rtl;
+              
+                margin:4% auto 3%;
+                } 
             .bigWrapper{
             display: flex;
             flex-direction: column;
@@ -350,7 +389,16 @@
             }
         }
         @media only screen and (min-width: 850px) and (max-width: 1050px) {
-        
+            .title{
+                font-family: "Horev";
+                color: black;
+                text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.414);
+                font-size: 4.5rem;
+                text-align: center;
+                direction: rtl;
+              
+                margin:4% auto 3%;
+                }
  
             .bigWrapper{
             display: flex;
