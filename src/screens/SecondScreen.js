@@ -62,7 +62,7 @@ const SecondScreen = () => {
           <Box
             none={true}
             icon={eye}
-            subject="סילבוס עיצוב גבות + הלחמת ריסים"
+            subject="קורס עיצוב גבות + הלחמת ריסים"
             description="חבילה של שני הקורסים שיוציאו אותך מומחית בתחום הביוטי עם ידע רחב ומתקדם בשני התחומים "
             itemscope
             itemtype="https://schema.org/Course"
