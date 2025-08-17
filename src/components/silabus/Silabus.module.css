@@ -1,0 +1,592 @@
+.box {
+   
+  
+ width:35%;
+    margin: 0 auto;
+
+  }
+  .oneDay{
+margin: 5% auto;
+  }
+  .title{
+
+    text-align: center;
+    font-size: 4rem;
+    font-family: "Horev";
+  }
+.description {
+    display: flex;
+    flex-direction: column;
+   
+    text-align: right;
+
+    width:85%;
+  
+
+    margin: 8% auto;
+    margin-bottom: 0.8rem;
+  }
+  .day{
+    text-align: center;
+    font-size: 2rem;
+    font-family: "Horev";
+  }
+  .text{
+    display: flex;
+    margin-top:3%;
+    flex-direction: row;
+    justify-content: space-evenly;
+    direction: rtl;
+    align-items: center;
+  }
+  
+  .description__text {
+    flex-grow: 1;
+    font-family: "Rubik";
+direction: rtl;
+  }
+  
+  .checkmark {
+    color: rgb(255, 255, 255);
+    font-size: 1.8rem;
+    margin-left: 1rem;
+  }
+  .row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+  }
+  .image{
+    width:30%;;
+    object-fit: contain;
+  }
+
+  @media only screen and (max-width: 350px){
+
+    .box {
+   
+  
+        width:90%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size: 2.5rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 1.8rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }
+  @media only screen and (min-width: 350px) and (max-width: 450px){
+
+    .box {
+   
+  
+        width:85%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size:3.2rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2.2rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 2rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }
+  @media only screen and (min-width: 450px) and (max-width: 550px){
+
+    .box {
+   
+  
+        width:80%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size: 3.5rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2.4rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 2rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }
+  @media only screen and (min-width: 550px) and (max-width: 650px){
+
+    .box {
+   
+  
+        width:75%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size: 3.5rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2.4rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 2rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }
+  @media only screen and (min-width: 650px) and (max-width: 750px){
+
+    .box {
+   
+  
+        width:70%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size: 3.5rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2.4rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 2rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }
+  @media only screen and (min-width: 750px) and (max-width: 950px){
+
+    .box {
+   
+  
+        width:60%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size: 3.5rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2.4rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 2rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }
+  @media only screen and (min-width: 950px) and (max-width: 1150px){
+
+    .box {
+   
+  
+        width:55%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size: 3.5rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2.4rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 2rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }
+  @media only screen and (min-width: 1150px) and (max-width: 1350px){
+
+    .box {
+   
+  
+        width:45%;
+           margin: 0 auto;
+       
+         }
+         .oneDay{
+       margin: 5% auto;
+         }
+         .title{
+       
+           text-align: center;
+           font-size: 4rem;
+           font-family: "Horev";
+         }
+       .description {
+           display: flex;
+           flex-direction: column;
+          
+           text-align: right;
+       
+           width:85%;
+         
+       
+           margin: 3% auto;
+           margin-bottom: 0.8rem;
+         }
+         .day{
+           text-align: center;
+           font-size: 2.5rem;
+           font-family: "Horev";
+         }
+         .text{
+           display: flex;
+           margin-top:5%;
+           flex-direction: row;
+           justify-content: space-evenly;
+           direction: rtl;
+           align-items: center;
+         }
+         
+         .description__text {
+           flex-grow: 1;
+           font-family: "Rubik";
+       direction: rtl;
+         }
+         
+         .checkmark {
+           color: rgb(255, 255, 255);
+           font-size: 2rem;
+           margin-left: 1rem;
+         }
+         .row{
+           display: flex;
+           flex-direction: row;
+           justify-content: space-evenly;
+           width:100%;
+         }
+         .image{
+           width:30%;
+           object-fit: contain;
+         }
+  }

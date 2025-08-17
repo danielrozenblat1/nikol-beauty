@@ -1,0 +1,349 @@
+.box {
+    width: 500px;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   
+
+  }
+.icon{
+
+    display: flex;
+    width:20%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:3rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:1.2rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+@media only screen and (max-width: 350px){
+
+
+
+  .box {
+    width: 90dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:2.2rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:0.9rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:85%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}
+@media only screen  and (min-width: 350px) and (max-width: 400px){
+
+
+
+  .box {
+    width: 90dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:2.4rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:0.95rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}
+@media only screen  and (min-width: 400px) and (max-width: 450px){
+
+
+
+  .box {
+    width: 85dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:2.5rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:1rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}
+
+@media only screen  and (min-width: 450px) and (max-width: 550px){
+
+
+
+  .box {
+    width: 75dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:2.8rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:1rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}
+@media only screen  and (min-width: 550px) and (max-width: 650px){
+
+  .box {
+    width: 75dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:3rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:1.1rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}
+
+@media only screen  and (min-width: 650px) and (max-width: 750px){
+
+  .box {
+    width: 70dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:3.2rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:1.2rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}
+@media only screen  and (min-width: 750px) and (max-width: 850px){
+
+  .box {
+    width: 65dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:3.2rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:1.2rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}
+@media only screen  and (min-width: 850px) and (max-width: 1050px){
+
+  .box {
+    width: 45dvw;
+    height: auto;
+   box-shadow:0 0 5px 2px rgba(9, 9, 9, 0.441);
+   margin:3% auto;
+
+  }
+.icon{
+
+    display: flex;
+    width:25%;
+   margin:2% auto;
+}
+.subject{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:2.8rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+
+}
+.description{
+    font-family: "HeeboR";
+    color: rgb(0, 0, 0);
+    font-size:1rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  width:80%;
+  text-align: center;
+  margin:0 auto;
+  letter-spacing: 0.1;
+
+}
+}

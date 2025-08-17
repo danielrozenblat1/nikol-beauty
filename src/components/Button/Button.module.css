@@ -1,0 +1,28 @@
+.button{
+
+    height:3rem;
+  width:15rem;
+   text-decoration: none;
+    background: rgb(255,152,107);
+background: radial-gradient(circle, rgba(249, 209, 247, 0.496) 0%, rgba(255, 255, 255, 0.504) 100%);
+    box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.282);
+    border-radius: 10px;
+    margin:2% auto;
+    cursor: pointer;
+    font-family: "RubikR";
+    font-size: 16px;
+    border: none;
+    color:black;
+    direction: rtl;
+    transition: all ease-out 1s;
+}
+.button:hover{
+transform: scale(1.1);
+
+}
+.center{
+    display: flex;
+    width: 100%;
+    margin:3% auto;
+    justify-content: center;
+}

@@ -1,0 +1,389 @@
+.question{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:3.5rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  padding-top:3%;
+}
+.questionFixed{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:3.5rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  padding-top:80px;
+
+}
+.title{
+    font-family: "Horev";
+    color: rgb(0, 0, 0);
+    font-size:6rem;
+    text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+  text-align: center;
+  direction: rtl;
+  padding-top:3%;
+}
+.bold{
+    display: inline;
+    color: rgb(215, 97, 81)
+}
+
+.center{
+    display: flex;
+    width:30%;
+    margin:3% auto;
+}
+.image{
+    width:100%;
+    object-fit: contain;
+
+}
+
+@media only screen and (max-width: 350px){
+
+    .question{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:8%;
+    }
+    .title{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:3.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:4%;
+      width:70%;
+      margin:0 auto;
+    }
+    .bold{
+        display: inline;
+        color: rgb(215, 97, 81)
+    }
+    
+    .center{
+        display: flex;
+        width:90%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+
+    .questionFixed{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:80px;
+
+    }
+}
+@media only screen  and (min-width: 350px) and (max-width: 450px){
+
+
+    .questionFixed{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.3rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:80px;
+
+    }
+    .question{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.3rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:8%;
+    }
+    .title{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:3.8rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:3%;
+      width:65%;
+      margin:0 auto;
+    }
+    .bold{
+        display: inline;
+        color: rgb(215, 97, 81)
+    }
+    
+    .center{
+        display: flex;
+        width:90%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+}
+@media only screen  and (min-width: 450px) and (max-width: 550px){
+    .questionFixed{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:80px;
+    }
+    .question{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:8%;
+    }
+    .title{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:4rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:3%;
+      width:60%;
+      margin:0 auto;
+    }
+    .bold{
+        display: inline;
+        color: rgb(215, 97, 81)
+    }
+    
+    .center{
+        display: flex;
+        width:80%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+}
+@media only screen  and (min-width: 550px) and (max-width: 650px){
+    .questionFixed{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.8rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:80px;
+    }
+    .question{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.8rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:8%;
+    }
+    .title{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:4.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:3%;
+      width:60%;
+      margin:0 auto;
+    }
+    .bold{
+        display: inline;
+        color: rgb(215, 97, 81)
+    }
+    
+    .center{
+        display: flex;
+        width:70%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+}
+@media only screen  and (min-width: 650px) and (max-width: 750px){
+    .questionFixed{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:3rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:80px;
+    }
+    .question{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:3rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:8%;
+    }
+    .title{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:4.8rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:3%;
+      width:50%;
+      margin:0 auto;
+    }
+    .bold{
+        display: inline;
+        color: rgb(215, 97, 81)
+    }
+    
+    .center{
+        display: flex;
+        width:60%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+}
+@media only screen  and (min-width: 750px) and (max-width: 850px){
+
+    .question{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:8%;
+    }
+    .questionFixed{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:2.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:80px;
+    }
+    .title{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:4.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:3%;
+      width:80%;
+      margin:0 auto;
+    }
+    .bold{
+        display: inline;
+        color: rgb(215, 97, 81)
+    }
+    
+    .center{
+        display: flex;
+        width:50%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+}
+@media only screen  and (min-width: 850px) and (max-width: 1050px){
+
+    .question{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:3rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:4%;
+    }
+    .questionFixed{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:3rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:80px;
+    }
+    .title{
+        font-family: "Horev";
+        color: rgb(0, 0, 0);
+        font-size:4.5rem;
+        text-shadow: 4px 2px 4px rgba(233, 165, 156, 0.358);
+      text-align: center;
+      direction: rtl;
+      padding-top:3%;
+      width:80%;
+      margin:0 auto;
+    }
+    .bold{
+        display: inline;
+        color: rgb(215, 97, 81)
+    }
+    
+    .center{
+        display: flex;
+        width:50%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+}
+@media only screen  and (min-width: 1050px) and (max-width: 1250px){
+
+ 
+    
+    .center{
+        display: flex;
+        width:40%;
+        margin:3% auto;
+    }
+    .image{
+        width:100%;
+        object-fit: contain;
+    
+    }
+}
